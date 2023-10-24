@@ -2,7 +2,7 @@
 - hosts : all
   become: true
   tasks :
-  - name: updating apt
+  - name: Updating apt
     command : sudo apt-get update
 
   - name : Install Docker
